@@ -1,0 +1,22 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  color: #fff;
+  padding: 0;
+
+  h3 {
+    color: #fff;
+  }
+}
+
+.main-content-layout {
+  padding: 0 1rem 1rem;
+}
+
+main.content {
+  padding: 1rem;
+  border-radius: 5px;
+  background: #fff;
+}

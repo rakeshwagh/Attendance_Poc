@@ -1,0 +1,14 @@
+.upserUser {
+  width: 100%;
+  max-width: 800px;
+}
+.form-checkbox-group .checkbox-group-vertical {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.form-checkbox-group .checkbox-group-vertical .ant-checkbox-wrapper {
+  width: calc(20% - 8px);
+  margin-bottom: 8px;
+}

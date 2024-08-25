@@ -1,0 +1,36 @@
+$primary: #000000;
+$secondary: #d8534f;
+$success: #22e11c;
+$danger: #ff0000;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": #d9ff50,
+  "warning": #ffbe0b,
+  "danger": $danger,
+  "light": #ffffff,
+  "dark": #000103,
+);
+
+$body-color: #212529;
+$border-color: #d8e2ee;
+$gray-color: #a6b0b9;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+.btn-light {
+  --bs-btn-border-color: #{$border-color};
+  --bs-btn-disabled-border-color: #{$border-color};
+}
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --border: #{$border-color};
+  --gray: #{$gray-color};
+  --body: #{$body-color};
+  --link: #3678b7;
+  --link-hover: #225f99;
+  --success: #{$success};
+  --danger: #{$danger};
+}

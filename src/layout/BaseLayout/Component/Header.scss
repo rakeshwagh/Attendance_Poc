@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001529;
+  padding: 0 20px;
+  color: #fff;
+  height: 64px;
+  position: relative;
+}
+
+.header-title {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sign-out-btn {
+  position: absolute;
+  right: 20px;
+}
